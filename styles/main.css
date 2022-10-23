@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;600&family=Roboto:wght@100&display=swap");
+
+body.main {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+body.main.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1.title {
+  font-size: 10vh;
+  color: #3dadb8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+h2.subtitle {
+  font-size: 4vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+div.segment {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+div.segment.background.darker {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+div.segment.background.dark {
+  background-color: #1b1c1d;
+}
+
+div.segment.background.cyan {
+  background-color: #11adab;
+}
+
+div.segment.shadow.cyan {
+  box-shadow: #3edad8 12px 4px 12px 12px;
+}
+
+div.segment.column {
+  flex-direction: column;
+}
+
+div.segment.big {
+  min-height: 100vh;
+}
+
+div.segment.large {
+  width: 100%;
+}
+
+div.segment.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.segment.spaced {
+  justify-content: space-around;
+}
+
+div.segment.pad {
+  padding: 20px;
+}
+
+div.segment.wrap {
+  flex-wrap: wrap;
+}

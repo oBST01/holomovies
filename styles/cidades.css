@@ -1,0 +1,61 @@
+div.country-table {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+  margin: 0;
+
+  width: 30%;
+  height: 60vh;
+
+  border: 1px solid white;
+  border-radius: 10px;
+
+  padding: 40px 10px;
+
+  margin: 3vh;
+
+  color: white;
+}
+
+div.country-table ul {
+  padding-left: 0;
+  text-align: center;
+}
+
+div.country-table ul figcaption {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 5vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+
+  margin-bottom: 10vh;
+}
+
+div.country-table ul li {
+  margin: 3vh;
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-size: 3vh;
+}
+
+div.country-table.red {
+  background-color: rgba(255, 0, 0, 0.1);
+  border: 1px solid red;
+  box-shadow: 4px 4px 4px 6px red;
+}
+div.country-table.blue {
+  background-color: rgba(4, 0, 255, 0.1);
+  border: 1px solid rgb(4, 0, 255);
+  box-shadow: 4px 4px 4px 6px rgb(4, 0, 255);
+}
+div.country-table.green {
+  background-color: rgba(4, 255, 21, 0.1);
+  border: 1px solid rgb(0, 255, 21);
+  box-shadow: 4px 4px 4px 6px rgb(4, 255, 21);
+}
