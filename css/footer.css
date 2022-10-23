@@ -69,6 +69,7 @@ footer {
   transition-delay: 0.1s;
   color: black;
   font-weight: bold;
+  padding: 0.6vh;
 }
 .buttom:hover {
   transition-delay: 0.08s;
