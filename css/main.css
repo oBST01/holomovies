@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima&family=Cormorant+SC:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@700&family=Fira+Sans:ital,wght@0,400;1,300&family=Josefin+Sans&family=Poppins&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -86,4 +86,15 @@ div.segment.pad {
 
 div.segment.wrap {
   flex-wrap: wrap;
+}
+body::-webkit-scrollbar{
+  width: 1vh;
+}
+body::-webkit-scrollbar-track {
+  background-color: #9be0df;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:#191919;
+  border-radius: 20px;
 }

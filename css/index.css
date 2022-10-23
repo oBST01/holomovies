@@ -1,0 +1,121 @@
+/* First Article */
+
+#articleMain{
+    background-image:url(../images/indeImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: rgb(114, 228, 236);
+    font-family: Open Sans;
+    box-shadow: 0 0 7vh 10vh #011226;
+}
+.titleMainDiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+.mainTitle{
+    font-size: 7.5vw;
+    text-shadow: 0 0 1.8vh #b2e3f0;
+}
+.mainTitle2{
+    font-size: 3vw;
+    text-shadow: 0 0 0.8vh #ffffff;
+    color: rgba(255, 255, 255, 0.226);
+}
+
+/* Animation */
+.mainTitle:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 1vh 1vh 2vh #00fffb;
+    cursor: grab;
+    transform: scale(1.1);
+}
+.mainTitle2:hover{
+    cursor:not-allowed;
+}
+
+/* Second Article */
+
+#articleShow{
+    padding: 15vh 5vw 5vh 8vw;
+}
+.divDesc{
+    margin-right: 10vw;
+    font-family: Poppins;
+}
+.divShow{
+    display: flex;
+    text-align: center;
+}
+.holo{
+    height: 50vw;
+    width: 80vh;
+}
+.textDesc{
+    font-size: 4vh;
+    text-align: justify;
+    letter-spacing: 0.2vh;
+    text-indent: 4vh;
+}
+.titleDesc{
+    font-size: 6vh;
+    text-shadow: 0 0 0.2vh #000000;
+}
+.buttomMain {
+    background-color: #3edad8;
+    padding: 1.5vh 2vh 1.5vh 2vh;
+    border-radius: 5vh;
+    font-family: Poppins;
+    font-size: 2.5vh;
+    margin-right: -3.8vh;
+    border-color: #ffffff00;
+    font-weight: bold;
+    color:#ffffff;
+    margin: 4vh;
+  }
+
+/* Animations */
+
+.buttomMain:hover {
+    transition-delay: 0.08s;
+    transition: 0.3s;
+    transform: scale(1.15);
+    color: #ffffff;
+    background-color: #191919;
+    cursor: pointer;
+  }
+
+/* Third Article */
+
+#articleHow{
+    background-color: #191919;
+}
+.divBoxes{
+    padding: 0 20vw 10vh 20vw;
+}
+.titleHow{
+    text-align: center;
+    font-size: 3.5vw;
+    color: white;
+    text-shadow: 0 0 1vh #ffffff;
+    padding: 4vh;
+}
+.divTitleHow{
+    font-family: Poppins;
+}
+.textHow{
+    margin: 5vh;
+    margin-left: 10vh;
+    font-family: Poppins;
+    color: black;
+    font-size: 2vh;
+    letter-spacing: 0.2vh;
+}
+#divider{
+    font-family: Poppins;
+    font-size: 3.5vh;
+}
