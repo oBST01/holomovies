@@ -76,7 +76,7 @@
     font-weight: bold;
     color:#ffffff;
     margin: 4vh;
-  }
+}
 
 /* Animations */
 
@@ -87,7 +87,7 @@
     color: #ffffff;
     background-color: #191919;
     cursor: pointer;
-  }
+}
 
 /* Third Article */
 
@@ -118,4 +118,48 @@
 #divider{
     font-family: Poppins;
     font-size: 3.5vh;
+}
+
+/* Fourth Article */
+
+.divFr{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-around;
+    font-family: Poppins;
+}
+.divContentFr{
+    width: 58vh;
+}
+.buttomFr{
+    background-color: #191919;
+    padding: 1.5vh 2vh 1.5vh 2vh;
+    border-radius: 5vh;
+    font-family: Poppins;
+    font-size: 4vh;
+    margin-right: -3.8vh;
+    border-color: #ffffff00;
+    font-weight: bold;
+    color:#3EDAD8;
+    margin: 4vh 4vh 4vh 6vw;
+}
+.titleFr{
+    font-size: 9vh;
+    letter-spacing: 0.2vh;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 0 0 1vh #00000054;
+}
+.pFr{
+    letter-spacing: 0.1vh;
+    font-size: 2.5vh;
+    text-align: justify;
+}
+.buttomFr:hover {
+    transition-delay: 0.08s;
+    transition: 0.3s;
+    transform: scale(1.05);
+    cursor: pointer;
 }
