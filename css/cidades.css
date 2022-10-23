@@ -4,10 +4,8 @@ div.country-table {
 
   text-align: center;
   align-items: center;
-  margin: 0;
 
-  width: 30%;
-  height: 60vh;
+  flex: 1;
 
   border: 1px solid white;
   border-radius: 10px;
@@ -26,6 +24,9 @@ div.country-table ul {
 
 div.country-table ul figcaption {
   display: flex;
+  overflow: hidden;
+
+  letter-spacing: 0.1px;
 
   justify-content: center;
   align-items: center;
@@ -42,20 +43,19 @@ div.country-table ul li {
   text-align: start;
   font-family: "Roboto", sans-serif;
   font-size: 3vh;
+  line-height: 30px;
+  word-wrap: break-word;
 }
 
 div.country-table.red {
-  background-color: rgba(255, 0, 0, 0.1);
   border: 1px solid red;
   box-shadow: 4px 4px 4px 6px red;
 }
 div.country-table.blue {
-  background-color: rgba(4, 0, 255, 0.1);
   border: 1px solid rgb(4, 0, 255);
-  box-shadow: 4px 4px 4px 6px rgb(4, 0, 255);
+  box-shadow: 4px 4px 4px 6px rgb(0, 81, 255);
 }
 div.country-table.green {
-  background-color: rgba(4, 255, 21, 0.1);
   border: 1px solid rgb(0, 255, 21);
-  box-shadow: 4px 4px 4px 6px rgb(4, 255, 21);
+  box-shadow: 4px 4px 4px 6px rgb(75, 255, 4);
 }

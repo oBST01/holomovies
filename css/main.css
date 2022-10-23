@@ -1,4 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;600&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima&family=Cormorant+SC:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@700&family=Fira+Sans:ital,wght@0,400;1,300&family=Josefin+Sans&family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.5vh;
+  transition: 0.5s all;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 body.main {
   background-color: rgba(0, 0, 0, 0.87);
@@ -9,7 +21,7 @@ body.main.image {
   background-repeat: no-repeat;
 }
 
-h1.title {
+h1.page-title {
   font-size: 10vh;
   color: #3dadb8;
   font-family: "Poppins", sans-serif;
@@ -65,10 +77,11 @@ div.segment.center {
 
 div.segment.spaced {
   justify-content: space-around;
+  align-items: stretch;
 }
 
 div.segment.pad {
-  padding: 20px;
+  padding: 5vh 2vh;
 }
 
 div.segment.wrap {
